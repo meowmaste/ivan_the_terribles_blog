@@ -6,11 +6,11 @@ This blogging application was built originally to be terrible, with ALL posts, c
 The app was deployed to Heroku:
 
 Competition Guidelines:
-*blog must contain full posts on the index page
-*posts, comments, and replies must be accessible with a mouse
-*pages with poor UX will be penalized
-*deployment to Heroku
-*point loadimact.com at Heroku URL to see how well it does
-*the average of best and worst load times will be taken
-*final score - ((#resources)(total requests))/(avg. load time)
-*updated README to include score details or link to LoadImpact
+* blog must contain full posts on the index page
+* posts, comments, and replies must be accessible with a mouse
+* pages with poor UX will be penalized
+* deployment to Heroku
+* point loadimact.com at Heroku URL to see how well it does
+* the average of best and worst load times will be taken
+* final score - ((#resources)(total requests))/(avg. load time)
+* updated README to include score details or link to LoadImpact
