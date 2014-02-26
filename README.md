@@ -21,4 +21,5 @@ Used includes on intial db query (Post.all) to reduce db queries ( seemed to red
 Added infinite scrolling with pagination by 10. 
 
 ![Screenshot](http://i.imgur.com/7oW8d2m.png)
+
 [Test Results](http://loadimpact.com/load-test/joslyns-terrible-blog.herokuapp.com-c383f65703cbc8bff79fe272675b81c2)
