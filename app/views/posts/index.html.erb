@@ -1,9 +1,9 @@
 <h1>Ivan the Terrible's Blog</h1>
 
 <section class="blog">
-  <%= render @posts %>
+  <%= render :partial => 'posts', :locals => { :posts => @posts } %>
 </section>
-
+  <%= link_to 'Load More Posts', posts_path(:page => @posts.next_page), :class => 'load-more-posts', :remote => true if @posts.next_page %>
 <br />
 
 <%= link_to 'New Post', new_post_path %>
