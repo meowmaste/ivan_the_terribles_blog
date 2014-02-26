@@ -2,4 +2,5 @@
   <h2>Post <%= "#{post.id}: #{post.title}" %></h2>
   <div class="post"><%= post.body %></div>
   <%= render 'post_nav', post: post %>
+  <%= link_to "Comments", post_comments_path(post) %>
 </section>

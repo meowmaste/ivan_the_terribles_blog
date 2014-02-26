@@ -4,6 +4,12 @@
   <b>Body:</b>
   <%= @comment.body %>
 </p>
+<p>
+  <b>Replies:</b>
+  <% @comment.replies.each do |r| %>
+  <p><%= r.body %></p>
+  <% end %>
+</p>
 
 <p>
   <b>Post:</b>
