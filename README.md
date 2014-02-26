@@ -14,3 +14,5 @@ Competition Guidelines:
 * the average of best and worst load times will be taken
 * final score - ((#resources)(total requests))/(avg. load time)
 * updated README to include score details or link to LoadImpact
+
+Used includes on intial db query (Post.all) to reduce db queries (seemed to reduce by ~20s)
